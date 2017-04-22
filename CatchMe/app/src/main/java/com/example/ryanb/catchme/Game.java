@@ -33,7 +33,7 @@ public class Game extends Activity
 
     public void draw()
     {
-        Bitmap b = Bitmap.createBitmap(screenW,screenH,Bitmap.Config.ARGB_8888);
+        Bitmap b = Bitmap.createBitmap(1920,1080,Bitmap.Config.ARGB_8888);
         Canvas canvas = new Canvas(b);
         myView = new ImageView(this);
         myView.setImageBitmap(b);
